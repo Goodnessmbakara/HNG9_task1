@@ -25,7 +25,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 import os
 DEBUG = config('DEBUG', cast=bool)
-ALLOWED_HOSTS = ['hng-2qj4.onrender.com']
+ALLOWED_HOSTS = ['https://meet-i130.onrender.com']
 
 
 
